@@ -44,30 +44,36 @@ const skillsSection = {
   subTitle:
     "Equipping digital healthcare innovation with hands-on expertise in data science, intelligent systems, and cloud-powered tools.",
   skills: [
-    emoji("⚕️ Build intelligent healthcare apps using AI and machine learning models"),
-    emoji("📊 Perform data analysis and visualization using Python, R, and SQL"),
+    emoji(
+      "⚕️ Build intelligent healthcare apps using AI and machine learning models"
+    ),
+    emoji(
+      "📊 Perform data analysis and visualization using Python, R, and SQL"
+    ),
     emoji("📡 Work with IoMT, EHR systems, and healthcare data pipelines"),
-    emoji("⚡ Develop data-driven prototypes and APIs using Flask, AWS, and Postman")
+    emoji(
+      "⚡ Develop data-driven prototypes and APIs using Flask, AWS, and Postman"
+    )
   ],
   softwareSkills: [
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "R", fontAwesomeClassname: "fas fa-chart-line" },
-    { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
-    { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-    { skillName: "PyTorch", fontAwesomeClassname: "fas fa-brain" },
-    { skillName: "TensorFlow", fontAwesomeClassname: "fas fa-project-diagram" },
-    { skillName: "Pandas", fontAwesomeClassname: "fas fa-table" },
-    { skillName: "NumPy", fontAwesomeClassname: "fas fa-square-root-alt" },
-    { skillName: "Scikit-learn", fontAwesomeClassname: "fas fa-robot" },
-    { skillName: "Flask", fontAwesomeClassname: "fas fa-flask" },
-    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "Jupyter", fontAwesomeClassname: "fas fa-book" },
-    { skillName: "Google Colab", fontAwesomeClassname: "fas fa-cloud" },
-    { skillName: "AWS Lambda", fontAwesomeClassname: "fas fa-cloud" },
-    { skillName: "DynamoDB", fontAwesomeClassname: "fas fa-server" },
-    { skillName: "API Gateway", fontAwesomeClassname: "fas fa-plug" }
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "R", fontAwesomeClassname: "fas fa-chart-line"},
+    {skillName: "HTML5", fontAwesomeClassname: "fab fa-html5"},
+    {skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt"},
+    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
+    {skillName: "PyTorch", fontAwesomeClassname: "fas fa-brain"},
+    {skillName: "TensorFlow", fontAwesomeClassname: "fas fa-project-diagram"},
+    {skillName: "Pandas", fontAwesomeClassname: "fas fa-table"},
+    {skillName: "NumPy", fontAwesomeClassname: "fas fa-square-root-alt"},
+    {skillName: "Scikit-learn", fontAwesomeClassname: "fas fa-robot"},
+    {skillName: "Flask", fontAwesomeClassname: "fas fa-flask"},
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
+    {skillName: "Jupyter", fontAwesomeClassname: "fas fa-book"},
+    {skillName: "Google Colab", fontAwesomeClassname: "fas fa-cloud"},
+    {skillName: "AWS Lambda", fontAwesomeClassname: "fas fa-cloud"},
+    {skillName: "DynamoDB", fontAwesomeClassname: "fas fa-server"},
+    {skillName: "API Gateway", fontAwesomeClassname: "fas fa-plug"}
   ],
   display: true
 };
@@ -187,7 +193,8 @@ const bigProjects = {
   projects: [
     {
       projectName: "WellnessWave - IoMT Wearable Stress App",
-      projectDesc: "Developed a full-stack mobile app for real-time stress tracking using wearable data.",
+      projectDesc:
+        "Developed a full-stack mobile app for real-time stress tracking using wearable data.",
       footerLink: [
         {
           name: "View Details",
@@ -197,17 +204,19 @@ const bigProjects = {
     },
     {
       projectName: "Predicting Heart Disease Risk – ML Classifier Models",
-      projectDesc: "Built and compared multiple models to predict heart disease based on patient data.",
+      projectDesc:
+        "Built and compared multiple models to predict heart disease based on patient data.",
       footerLink: [
         {
           name: "View Details",
           url: "https://github.com/AsianaHolloway/Exploring-Machine-Learning-Applications-in-Predicting-Heart-Disease-risk"
-        }  
+        }
       ]
     },
     {
       projectName: "Analyzing Employee Attrition Using Spark and Python",
-      projectDesc: "Performed distributed data analysis to examine employee attrition trends.",
+      projectDesc:
+        "Performed distributed data analysis to examine employee attrition trends.",
       footerLink: [
         {
           name: "View Details",
@@ -217,22 +226,24 @@ const bigProjects = {
     },
     {
       projectName: "Primary Care Telehealth Visits – Research Collaboration",
-      projectDesc: "Collaborated with classmates to investigate the use of telehealth in primary care settings.",
+      projectDesc:
+        "Collaborated with classmates to investigate the use of telehealth in primary care settings.",
       footerLink: [
         {
           name: "View Details",
           url: "https://github.com/AsianaHolloway/Primary-Care-Telehealth-Visits"
-        }  
+        }
       ]
     },
     {
       projectName: "Low Level Differential Diagnostic System",
-      projectDesc: "A rule-based decision support demo built with python, SQLAlchemy, and Juypter Notebook",
+      projectDesc:
+        "A rule-based decision support demo built with python, SQLAlchemy, and Juypter Notebook",
       footerLink: [
         {
           name: "View Details",
           url: "https://github.com/AsianaHolloway/AssignmentDifferentialDiagnostics"
-        }  
+        }
       ]
     }
   ],
