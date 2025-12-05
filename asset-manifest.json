@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.50441006.css",
+    "main.css": "/static/css/main.c2295984.css",
     "main.js": "/static/js/main.69f99be2.js",
     "static/media/michiganTechLogo.png": "/static/media/michiganTechLogo.866f9fd263e0c8fe89be.png",
     "static/media/Seal_transparent.png": "/static/media/Seal_transparent.d6f619337a1bd8a2562f.png",
@@ -17,11 +17,11 @@
     "static/media/pwaLogo.webp": "/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.50441006.css.map": "/static/css/main.50441006.css.map",
+    "main.c2295984.css.map": "/static/css/main.c2295984.css.map",
     "main.69f99be2.js.map": "/static/js/main.69f99be2.js.map"
   },
   "entrypoints": [
-    "static/css/main.50441006.css",
+    "static/css/main.c2295984.css",
     "static/js/main.69f99be2.js"
   ]
 }
